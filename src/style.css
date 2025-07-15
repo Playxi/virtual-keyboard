@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --shadow-3xl: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+div[data-key='"'] {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /* shadow-3xl */
+  border-radius: 0.5rem; /* rounded-lg */
+  width: 3rem; /* w-12 */
+  height: 3rem; /* h-12 */
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+}
+
